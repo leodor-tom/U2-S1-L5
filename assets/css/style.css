@@ -251,11 +251,10 @@ aside {
   color: #6b6b6b;
 }
 
-@keyframes bgheader {
-  from {
-    background-color: #ffc117;
-  }
-  to {
-    background-color: white;
-  }
+.white {
+  background-color: white;
+}
+
+.green {
+  background-color: #1a8917;
 }
