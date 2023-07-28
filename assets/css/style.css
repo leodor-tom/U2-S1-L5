@@ -252,13 +252,28 @@ aside {
 }
 
 .white {
-  background-color: white;
+  animation: bianco 1.5s both;
 }
 
 .green {
-  background-color: #1a8917;
+  animation: verde 1.5s both;
 }
-
+@keyframes bianco {
+  from {
+    background-color: #ffc117;
+  }
+  to {
+    background-color: white;
+  }
+}
+@keyframes verde {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: #1a8917;
+  }
+}
 g[opacity="1"]:nth-of-type(even) {
   animation: fadein 2s infinite alternate;
 }
