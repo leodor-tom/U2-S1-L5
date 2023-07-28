@@ -258,3 +258,16 @@ aside {
 .green {
   background-color: #1a8917;
 }
+
+g[opacity="1"]:nth-of-type(even) {
+  animation: fadein 2s infinite alternate;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
