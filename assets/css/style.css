@@ -136,7 +136,16 @@ main .num {
   margin-right: 10px;
   font-family: "Times New Roman", Times, serif;
 }
+.foot {
+  display: flex;
+}
+.star {
+  gap: 5px;
+}
 
+.bookmark {
+  margin-left: auto;
+}
 .home-feed {
   display: flex;
   padding-inline: 120px;
